@@ -70,7 +70,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5665DFDD51A44278B93E413377134871 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1183FACCA1D94C8FB5CA0543D0AE6DE1 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_EA2A7C300B7941AC9EC54C54ECF7BE79 }}
-
+#comment
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
         id: fa
